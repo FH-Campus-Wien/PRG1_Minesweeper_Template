@@ -32,7 +32,8 @@ public class Controller {
         Cell[][] cells = this.board.getCells();
         for(int i = 0; i < Board.ROWS; i++){
             for(int j = 0; j < Board.COLS; j++) {
-                System.out.println(cells[i][j]);
+                // TODO add cells to grid, print for testing or use debugger
+                //System.out.println(cells[i][j]);
                 //grid.add(cells[i][j], j, i);
             }
         }
